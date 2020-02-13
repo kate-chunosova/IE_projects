@@ -2,7 +2,7 @@
 title: "Analysis of political connections around the globe"
 subtitle: MBD 2019 - A1- Group C
 output:
-  html_document:
+  rmarkdown::github_document:
     df_print: paged
     toc_depth: '4'
   prettydoc::html_pretty:
