@@ -5,7 +5,6 @@ Using Twitter API I filtered out tweets from Australia containing the word "poli
 
 ## Sample output from the count of hashtags:
 
-***
 **Time: 2020-02-11 13:58:40**
 
 (u'#DelhiElection2020', 1)  
@@ -58,24 +57,24 @@ Using Twitter API I filtered out tweets from Australia containing the word "poli
 
 The output of the hashtags count can be seen in the complete_log_3.txt file:
 
-(u'#DelhiElection2020', 1)
-(u'#AAPWinningDelhi', 1)
-(u'#Bernie2020', 1)
-(u'#SmartNews', 1)
-(u'#BJP', 1)
-(u'#onpoli', 1)
-(u'#SAHElaw', 1)
-(u'#renters', 2)
-(u'#lauraloomerforcongress', 1)
-(u'#UnfitToBePresident', 1)
-(u'#BJP_Mukt_Bharat', 1)
-(u'#1118', 1)
-(u'Brexit.#not', 1)
+(u'#DelhiElection2020', 1)  
+(u'#AAPWinningDelhi', 1)  
+(u'#Bernie2020', 1)  
+(u'#SmartNews', 1)  
+(u'#BJP', 1)  
+(u'#onpoli', 1)  
+(u'#SAHElaw', 1)  
+(u'#renters', 2)  
+(u'#lauraloomerforcongress', 1)  
+(u'#UnfitToBePresident', 1)  
+(u'#BJP_Mukt_Bharat', 1)  
+(u'#1118', 1)  
+(u'Brexit.#not', 1)  
 
 ## Sample output of the word count without removing stopwords:
 
 As we can see it shows just prepositions which is not really useful. You can access full word count in the file complete_log_words.txt
-***
+
 **Time: 2020-02-10 09:46:02**
 
 (u'Toast', 1)  
@@ -107,21 +106,23 @@ As we can see it shows just prepositions which is not really useful. You can acc
 |a|11|
 
 
-After removal of stopwords  (full log of words is in the file complete_log_without_stop_5.txt).
+## Sample output of the word count with removing stopwords:
+
+Full log of words is in the file complete_log_without_stop_5.txt)  
 
 **Time: 2020-02-11 13:35:50**
-***
-(u'', 30)
-(u'lemmings', 1)
-(u'jason', 2)
-(u'reminded', 1)
-(u'matter.', 1)
-(u'laura', 1)
-(u'sweeping', 1)
-(u'@markjohnstonld:', 1)
-(u'shot', 1)
-(u'https://t.co/tsiyq32jog', 1)
-...
+
+(u'', 30)  
+(u'lemmings', 1)  
+(u'jason', 2)  
+(u'reminded', 1)  
+(u'matter.', 1)  
+(u'laura', 1)  
+(u'sweeping', 1)  
+(u'@markjohnstonld:', 1)  
+(u'shot', 1)  
+(u'https://t.co/tsiyq32jog', 1)  
+...  
 
 ** Time: 2020-02-11 13:35:50**
 
