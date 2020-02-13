@@ -2,13 +2,13 @@
 title: "Analysis of political connections around the globe"
 subtitle: MBD 2019 - A1- Group C
 output:
-  rmarkdown::github_document:
-    df_print: paged
-    toc_depth: '4'
   prettydoc::html_pretty:
     highlight: monochrome
     theme: leonids
     toc_depth: 4
+  html_document:
+    df_print: paged
+    toc_depth: '4'
 ---
 <style>
 body, h1, h2, h3, h4 {
@@ -55,7 +55,6 @@ library('png')
 The dataset represents Facebook pages of politicians from different countries in November, 2017. Only verified Facebook pages were included. Nodes represent the pages and edges are mutual likes amongst them, thus the graph is undirected. In a more general sense, the data can be interpreted as political alliances that are demonstrated publicly. The goal of our analysis is to see whether those connections allign with the actual geopolitical situation in the world and to try to define clusters within their political network.  
 Before we dive into the graph analysis let's have a look into common descriptive statistics in order to get the first glimpse of the data that we're about to analyse.
 
-*** 
 
 ```{r}
 # Loading the data
@@ -110,7 +109,6 @@ Global transitivity is the ratio of the triangles and the connected triples in t
 Transitivity refers to the completeness of the network, meaning that on average 27% of the connections are complete - friend of your friend is my friend. The fact that this indicator is higher may have to do with the fact that politicians tend to belong to political parties within which they know a lot of people since they work together.
 However, the average local transitivity is even higher - 0.39. Local transitivity is the ratio of the triangles connected to the vertex and the triples centered on the vertex. This indicaties that we have a lot of potential "outliers" - people who don't have many complete connections which drives the global transitivity down. 
 
-***
 # Degree centrality
   
 Degree centrality represents number of connections that a particular politician has.  
@@ -179,7 +177,6 @@ Closeness represents whether the politician is conected to the most influencial 
 
 A lot of people on this list are highly exposed to Europe, thus it's not surprising that they have a lot of connections to people who are very influential. The same goes for the Presidents. Barack Obama's high networking skills make him appear on every list since he's good at both diplomatics and targeting his potential links to other politicians.
 
-***
 # Take a First Look at the Graph:  
 ## Community Detection  
 
@@ -202,7 +199,6 @@ Europe has been very well identified nby the algorithm, since it's very mingled 
 Italy is represented by two distinct clots, which is explained by the fact that we have the more conservative Italian establishment that is connecting to Europe and a new political movement, which was formed from the people who are far from politics. They don't define themselves as neither right, nor left, as a matter of fact they are anti-political. The majority of the members are businessman and not professional politicians. Thus, this party is situatied on the outskirts of the graph and is not connected with the rest of the world.  
 Barack Obama has been correctly identified as part of the USA cluster though he is somewhat far from the majority of americans on the graph. 
 
-***
 # World divided  
 
 It is possible to discern that the graph has broadly divided this ‘Facebook world’ into three groups:  
