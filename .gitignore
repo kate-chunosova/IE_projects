@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/r,macos,python
 # Edit at https://www.gitignore.io/?templates=r,macos,python
+=======
+# Created by https://www.gitignore.io/api/macos,python
+# Edit at https://www.gitignore.io/?templates=macos,python
+>>>>>>> remotes/git_hadoop/master
 
 ### macOS ###
 # General
@@ -135,6 +140,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+<<<<<<< HEAD
 ### R ###
 # History files
 .Rhistory
@@ -199,3 +205,6 @@ ipython_config.py
 # End of https://www.gitignore.io/api/jupyternotebooks
 
 # End of https://www.gitignore.io/api/r,macos,python
+=======
+# End of https://www.gitignore.io/api/macos,python
+>>>>>>> remotes/git_hadoop/master
