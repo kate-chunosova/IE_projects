@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/r,macos,python
 # Edit at https://www.gitignore.io/?templates=r,macos,python
 =======
@@ -11,6 +12,8 @@
 =======
 =======
 >>>>>>> remotes/git_nlp/master
+=======
+>>>>>>> remotes/git_ml/master
 # Created by https://www.gitignore.io/api/macos,python,jupyternotebooks
 # Edit at https://www.gitignore.io/?templates=macos,python,jupyternotebooks
 
@@ -28,9 +31,12 @@ ipython_config.py
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> remotes/git_streaming/master
 =======
 >>>>>>> remotes/git_nlp/master
+=======
+>>>>>>> remotes/git_ml/master
 
 ### macOS ###
 # General
@@ -168,6 +174,7 @@ dmypy.json
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### R ###
 # History files
 .Rhistory
@@ -241,3 +248,6 @@ ipython_config.py
 =======
 # End of https://www.gitignore.io/api/macos,python,jupyternotebooks
 >>>>>>> remotes/git_nlp/master
+=======
+# End of https://www.gitignore.io/api/macos,python,jupyternotebooks
+>>>>>>> remotes/git_ml/master
